@@ -1,0 +1,36 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border-bottom-color: black;
+}
+
+.navbar-brand a { /* Restaurant name */
+  color: black;
+  vertical-align: middle;
+}
+
+.navbar-nav {
+    background-color: #c0c0c0;
+}
+
+.navbar-nav a {
+    text-align: center;
+}
+
+#big-column {
+  height: 1000px;
+  background-color: #e0e0e0;
+  border: 0;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+#big-column span {
+	font-size: 20px;
+}
