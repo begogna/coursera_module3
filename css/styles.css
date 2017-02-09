@@ -16,21 +16,32 @@ body {
 }
 
 .navbar-nav {
-    background-color: #c0c0c0;
+    background-color: #bdd3f3;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .navbar-nav a {
-    text-align: center;
+  font-weight: bold;
+  color: black;
 }
 
+.navbar-nav li {
+  border-bottom:  1px solid #072653;
+}
+
+.navbar-nav li:last-child {
+  border-bottom:  0px;
+}
 #big-column {
   height: 1000px;
   background-color: #e0e0e0;
   border: 0;
   margin-bottom: 30px;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 #big-column span {
-	font-size: 20px;
+	font-size: 1.2em;
+  margin: 10px;
 }
